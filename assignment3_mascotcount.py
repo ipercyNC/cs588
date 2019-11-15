@@ -30,7 +30,7 @@ colors.createOrReplaceTempView('colors')
 
                                 # Perform mascot + color count.
 mascots_join = spark.sql(
-    'SELECT coalesce(m.tax_genus,m.non_tax_type) as type, c.color, count(c.id) as cnt' \
+    'SELECT coalesce(m.tax_genus,m.non_tax_type) as type, c.color, count(c.id) as cnt ' 
     'FROM mascots m, colors c where m.id = c.id group by type, c.color order by cnt desc, type desc')
 mascots_join.show()
 mascots_join.printSchema()
