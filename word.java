@@ -1,20 +1,4 @@
-Skip to content
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@ipercyNC 
-1
-04cuong3/GoogleCloudPlatformExamples
- Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights
-GoogleCloudPlatformExamples/dataproc-mapreduce/WordCount.java
-@cuong3 cuong3 Create WordCount.java
-5a962e5 on Apr 26, 2017
-196 lines (166 sloc)  7.16 KB
-  
 import com.google.cloud.hadoop.io.bigquery.BigQueryConfiguration;
 import com.google.cloud.hadoop.io.bigquery.BigQueryOutputFormat;
 import com.google.cloud.hadoop.io.bigquery.GsonBigQueryInputFormat;
