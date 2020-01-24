@@ -1,3 +1,3 @@
 # CS588 Cloud and Cluster Data Management
 
-  - Homework solutions for NoSQL cloud data queries
+  - Homework solutions for NoSQL cloud data queries using Spark
